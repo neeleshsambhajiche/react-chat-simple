@@ -168,6 +168,7 @@ class ChatApp extends Component {
   render() {
     return (
       <div className="chat_window">
+        <div className="top_banner"></div>
         <MessagesContainer messages={this.state.messages}></MessagesContainer>
         <div className="bottom_wrapper clearfix">
           <MessageTextBoxContainer
